@@ -1,30 +1,31 @@
-# Thunderbolt
+# Wildfire 
 
 ![SS](http://i.gyazo.com/cfe106ee557900c6cbbc206177913a55.png)
 
 CLI-based Twitter Client using Streaming API.  
-This product is created as a clone of [earthquake](https://github.com/jugyo/earthquake).
+This product is created as a fork of [thunderbolt](https://github.com/k0kubun/thunderbolt).
 
 ## Features
+- User Friendly
 - Realtime timeline updating by UserStream
 - Multi account support
 
 ## Install
 ```bash
 $ brew install readline
-$ go get github.com/k0kubun/thunderbolt
+$ go get github.com/karchz/WildFire
 ```
 
 ## Launch
 ```bash
 # Normal launch
-$ thunderbolt
+$ wildfire
 
 # Account specific launch
-$ thunderbolt -a k0kubun
+$ wildfire -a k0kubun
 
 # Just post a tweet and shutdown
-$ thunderbolt -t "Hello World"
+$ wildfire -t "Hello World"
 ```
 
 ## Command
@@ -86,4 +87,4 @@ $ thunderbolt -t "Hello World"
 
 ## Copyright
 
-Copyright (c) 2014 Takashi Kokubun. See [LICENSE](https://github.com/k0kubun/thunderbolt/blob/master/LICENSE) for details.
+Copyright (c) 2017 karchz. See [LICENSE](https://github.com/karchz/wildfire/blob/master/LICENSE) for details.
